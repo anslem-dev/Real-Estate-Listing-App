@@ -1,0 +1,18 @@
+.nav {
+ background: linear-gradient(135deg, #283E51, #485563);
+     display:flex;
+    align-items:center;
+    justify-content: space-around;
+    width: 95%;
+    margin:auto;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 999;
+    position:sticky;
+    top:0;
+}
+@media (max-width: 720px) {
+  .nav{
+    display: none;
+  }
+}
+

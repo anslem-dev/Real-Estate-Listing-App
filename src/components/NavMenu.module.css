@@ -1,0 +1,27 @@
+.ul{
+display: flex;
+justify-content: space-around;
+align-items: center;
+gap:15px;
+}
+.ul li :global(.active){ 
+    text-decoration: underline;
+    background-color: #0a1016;
+    color:#fff;
+}
+.ul li{
+    list-style-type:none;
+}
+
+.ul li a{
+    list-style-type:none;
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 2px 4px;
+    text-decoration: none;
+}
+@media(max-width: 720px){
+    .ul li{
+ display: none;
+}
+}

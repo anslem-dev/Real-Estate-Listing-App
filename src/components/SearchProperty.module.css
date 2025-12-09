@@ -1,0 +1,29 @@
+.container{
+ margin-top: 20px;
+text-align: center;
+}
+.inputText{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    margin:0;
+    width:fit-content;
+    border-radius: 0 0 5px 5px;
+}
+.inputText input{
+    padding:4px  16px;
+    border: none;
+}
+.inputText button{
+     padding:2px  4px;
+}
+.selectBox{
+  padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin:0;
+    width:200px;
+    border-radius: 0 0 5px 5px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}

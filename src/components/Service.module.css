@@ -1,0 +1,35 @@
+.servicesHero{
+  /* text-align: center; */
+  font-size: 20px;
+  
+  ul{
+    list-style: none;
+  }
+}
+.testimonialProfileCards{
+  h3{
+    /* padding-left:10px; */
+    font-size:25px;
+  }
+}
+.profilecard{
+  display: flex;
+  align-items: center;
+width: 100%;
+height: 80px;
+  margin-top:50px;
+  /* gap: 2rem; */
+   box-shadow: 1px 2px 1px #ccc;
+   text-transform: capitalize;
+}
+.profileAvater{
+  width: 80px;
+  height:80px;
+  border-radius:20%;
+}
+.testifierDetails{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}

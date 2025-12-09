@@ -1,0 +1,64 @@
+.container{
+  width: 80%;
+  max-width: 800px;
+margin: auto;
+padding: 20px 0;
+}
+.cartHeader{
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  text-align:center;
+padding: 10px;
+margin-bottom:20px;
+background-color: #fff;
+box-shadow:0 4px 8px rgba(0,0,0,0.15) ;
+}
+.checkoutBtn{
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.cartBox{
+display: grid; 
+grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+gap:10px;
+}
+.cartCard{
+border-radius: #fff;
+border-radius: 6px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+background-color: #fff;
+}
+.cartImg{
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+}
+.cartBody{
+  font-weight: bold;
+  text-align: center;
+}
+
+.cartBtn{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:10px;
+background-color: #ddd;
+}
+.cartBtn button{
+  padding: 4px 10px;
+  border: none;
+  border-radius: 6px;
+  /* background: #000; */
+  color: #000000;
+  cursor: pointer;
+}
+.RemBtn{
+  background-color: #fe0000 !important;
+  color:#fff !important;
+border-radius: 6px;
+}

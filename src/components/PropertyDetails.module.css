@@ -1,0 +1,74 @@
+.container{
+  width: 50%;
+  text-align: center;
+}
+.imageBoxContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1.5rem;
+  /* flex-wrap: wrap; */
+}
+.imageBox{
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  cursor:pointer;
+  transition:all 0.4s ease;
+}
+.imageBox:hover{
+transform:scale(1.05);
+filter: brightness(1.2)
+}
+/* .leftImageBox{
+width: 120px;
+height: 160px;
+border-radius: 15px;
+background-image: url('image.png');
+} */
+.rightImageBox{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  gap:0.8rem;
+}
+.middleImageBox{
+  width: 120px;
+height: 240px;
+border-radius: 10px;
+background-image: url('image2.png');
+}
+.triangleImageBox{
+  width:60px;
+  height:120px;
+clip-path: polygon(50% 0%, 0% 100%, 100% 100%) ;
+background-image: url('image3.png');
+background-size:cover;
+background-position:center;
+  border-left: 80px solid transparent;
+   border-right: 80px solid transparent;
+}
+.bottomImageBox{
+  width:140px;
+  height:100px;
+  padding:0px 50px;
+border-radius:10px;
+background-image: url('image5.png');
+}
+.counter{
+  color:#fff;
+  top: -10px;
+  font-size:1.5rem;
+  font-weight: bolder;
+  position:absolute;
+  right: 10px;
+  background:#000000;
+  border-radius: 2px;
+}
+
+@media (max-width: 720px){
+  .container{
+  width:100%;
+  text-align: center;
+}
+}

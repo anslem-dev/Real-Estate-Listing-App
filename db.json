@@ -1,0 +1,114 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Sunny 3-bed townhouse",
+      "description": "3 bedroom, 2 bathroom townhouse with modern kitchen and garden.",
+      "location": {
+        "city": "Lagos"
+      },
+      "price": 250000,
+      "images": "image0.png",
+      "type": "Buy"
+    },
+    {
+      "id": 2,
+      "title": "Luxury Waterfront Villa",
+      "description": "Spacious 5-bedroom villa with private pool and ocean view.",
+      "location": {
+        "city": "Abuja"
+      },
+      "price": 750000,
+      "images": "image1.png",
+      "type": "Rent"
+    },
+    {
+      "id": 3,
+      "title": "Modern Studio Apartment",
+      "description": "Compact and stylish studio in the heart of the city.",
+      "location": {
+        "city": "Port Harcourt"
+      },
+      "price": 120000,
+       "images": "image2.png",
+      "type": "Buy"
+    },
+    {
+      "id": 4,
+      "title": "Elegant Family Bungalow",
+      "description": "4-bedroom bungalow with a large yard and carport.",
+      "location": {
+        "city": "Enugu"
+      },
+      "price": 310000,
+      "images": "image3.png",
+      "type": "Buy"
+    },
+    {
+      "id": 5,
+      "title": "Downtown Penthouse Suite",
+      "description": "Luxury 2-bedroom penthouse with panoramic city views.",
+      "location": {
+        "city": "Lagos"
+      },
+      "price": 600000,
+     "images": "image4.png",
+     "type": "Rent"
+    },
+    {
+      "id": 6,
+      "title": "Cozy Suburban Home",
+      "description": "Comfortable 3-bedroom home in a peaceful neighborhood.",
+      "location": {
+        "city": "Ibadan"
+      },
+      "price": 200000,
+      "images": "image5.png",
+      "type": "Buy"
+    },
+    {
+      "id": 7,
+      "title": "Luxury Duplex with Pool",
+      "description": "Beautiful duplex featuring 4 bedrooms, swimming pool, and garage.",
+      "location": {
+        "city": "Abuja"
+      },
+      "price": 480000,
+      "images": "image6.png",
+      "type": "Rent"
+    },
+    {
+      "id": 8,
+      "title": "Modern Smart Apartment",
+      "description": "2-bedroom smart home apartment with automated lighting and security.",
+      "location": {
+        "city": "Delta"
+      },
+      "price": 350000,
+     "images": "image7.png",
+     "type": "Rent"
+    },
+    {
+      "id": 9,
+      "title": "Classic Bungalow Retreat",
+      "description": "Relaxing 3-bedroom home with wide verandas and palm garden.",
+      "location": {
+        "city": "Benin City"
+      },
+      "price": 270000,
+      "images": "image8.png",
+      "type": "Rent"
+    },
+    {
+      "id": 10,
+      "title": "Affordable Mini Flat",
+      "description": "Simple and affordable 1-bedroom apartment ideal for singles.",
+      "location": {
+        "city": "Ogun"
+      },
+      "price": 95000,
+      "images": "image9.png",
+      "type": "Rent"
+    }
+  ]
+}

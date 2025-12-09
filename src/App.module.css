@@ -1,0 +1,12 @@
+
+html, body, #root{
+height:100%;
+}
+.appLayout{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.topNavPage{
+  flex: 1;
+}

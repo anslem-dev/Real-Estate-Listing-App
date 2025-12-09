@@ -1,0 +1,11 @@
+.productContainer{
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+@media (max-width:720px) {
+.productContainer{
+display: grid;
+width: 100%;
+}
+}

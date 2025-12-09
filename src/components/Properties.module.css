@@ -1,0 +1,106 @@
+.container{
+  display: flex;
+  flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+    height: 50vh;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.container::-webkit-scrollbar{
+  display:none;
+}
+.propertyBox{
+border: 1px solid #000;
+border-radius: 5px;
+/* box-shadow: 0 2px 10px rgba(0,0,0, 0.15); */
+background-color: #fff;
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap:1rem;
+}
+.propertyBox:hover{
+ box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+transform:translateY(-6px)
+}
+.imageBox{
+  /* border-right: 2px solid red; */
+  width: 100%;
+  height:auto;
+  border-radius: 6px;
+  object-fit: cover;
+}
+.imageBox img{
+    transition: transform 0.4s ease;
+      width: 100%;
+  height:auto;
+  border-radius: 6px;
+}
+article{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+.propertyInfo{
+    line-height: 1rem;
+    padding: 0 2px;
+}
+.propertyPrices{
+    padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.favIcon{
+  font-size: 1.5rem;
+  cursor:pointer;
+}
+.favIcon.active{
+  color:#d34d5c;
+}
+
+
+
+.purchaseBtn{
+  background-color: #070303;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+border-radius: 2px;
+cursor: pointer;
+}
+
+@media(max-width: 800px){
+  .container{
+    padding: 10px;
+    display:flex;
+       width:100%;
+    height: auto;
+    flex-direction: row;
+    overflow-x: auto;
+    /* gap:5rem; */
+    scroll-behavior: smooth;
+}
+.propertyBox{
+  padding: 10px;
+display:flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+min-width:320px;
+min-height:fit-content;
+border: 6px;
+box-shadow: 0 2px 10px rgba(0,0,0, 0.1);
+background-color: #fff;
+}
+
+article{
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+}
+

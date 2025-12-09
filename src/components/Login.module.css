@@ -1,0 +1,11 @@
+.login{
+     background-color: #fff;
+    border-radius: 5px;
+}
+@media(max-width:720px){
+.login{
+    display: none;
+}
+}
+
+
