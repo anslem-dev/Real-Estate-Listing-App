@@ -5,10 +5,12 @@ import { useFilter } from "../hooks/useFilter";
 import { useCart } from "../hooks/useCart";
 import spinner from "../assets/spinner.gif";
 
+
 const ProductItem = () => {
   const { search, location, price, type } = useFilter();
   const { addPropsToCart, carts, addPropsToFav, favs } = useCart();
-  const KEY_URL = "http://localhost:4000/properties";
+  // const KEY_URL = "http://localhost:4000/properties";
+const KEY_URL = "https://real-estate-listing-app.vercel.app/properties.json";
   const [properties, setProperties] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
