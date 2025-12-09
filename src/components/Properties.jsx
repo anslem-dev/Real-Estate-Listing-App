@@ -30,7 +30,7 @@ const ProductItem = () => {
         }
         const data = await res.json();
         setTimeout(() => {
-          setProperties(data.properties);
+          setProperties(data.record.properties);
           setLoading(false);
         }, 1000);
         // console.log(data);
