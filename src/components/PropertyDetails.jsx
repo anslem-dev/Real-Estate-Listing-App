@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import styles from "./PropertyDetails.module.css";
 const PropertyDetails = () => {
   const [counter, setCounter] = useState(0);
-  const maxNumber = 300;  
+  const maxNumber = 1000;  
   useEffect(() => {
   const interval  = setInterval (() => {
     setCounter((count) =>{
@@ -33,7 +33,7 @@ const PropertyDetails = () => {
           <span className={styles.counter} >10k</span>
         </div> */}
         <div className={`${styles.imageBox}  ${styles.middleImageBox} `}>
-          <span className={styles.counter}>{counter}K </span>
+          <span className={styles.counter}>{counter}k</span>
         </div>
         <div className={styles.rightImageBox}>
           <div className={`${styles.imageBox}  ${styles.triangleImageBox} `}>

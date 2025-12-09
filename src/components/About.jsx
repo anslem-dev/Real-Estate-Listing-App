@@ -102,7 +102,7 @@ const About = () => {
         </header>
         <div className={styles.aboutImgBox}>
           <img src="image.png" alt="aboutImage" />
-          <img src="image11.png" />
+          {/* <img src="counterImg2.png" /> */}
         </div>
         <div className={styles.aboutContainer}>
           {aboutData.map((about) => (
