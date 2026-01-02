@@ -3,7 +3,8 @@ import styles from "./Properties.module.css";
 import { FaHeart } from "react-icons/fa";
 import { useFilter } from "../hooks/useFilter";
 import { useCart } from "../hooks/useCart";
-import spinner from "../assets/spinner.gif";
+import spinner0 from "../assets/spinner0.gif";
+import AppLoader from "./AppLoader";
 
 
 const ProductItem = () => {
@@ -49,7 +50,8 @@ const ProductItem = () => {
   if (loading) {
     return (
       <div>
-        <img src={spinner} alt="spinner" />
+        {/* <AppLoader/> */}
+        <img src={spinner0} alt="spinner" />
         <p>Loading property, please wait...</p>
       </div>
     );

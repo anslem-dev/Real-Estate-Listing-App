@@ -13,7 +13,7 @@ export const Footer = () => {
      
             <span className={styles.newsSpan}>
         <input type="checkbox" />
-        Subcribe To News Letter
+        Subscribe To News Letter
         <input type="mail" placeholder='mymail.com' />
             </span>
             <marquee>

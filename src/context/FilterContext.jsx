@@ -1,5 +1,4 @@
 import  {createContext,useState } from 'react'
-
 const FilterContext = createContext();
 
 export const FilterContextProvider = ({children}) => {
