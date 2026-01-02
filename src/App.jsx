@@ -10,7 +10,7 @@ import CartPage from "./pages/CartPage";
 import { Footer } from "./components/Footer";
 import styles from "./App.module.css";
 import ProtectedRoutes from "./utils/ProtectedRoutes";
-import Login from "./utils/login";
+import Login from "./utils/Login";
 
 function App() {
   return (

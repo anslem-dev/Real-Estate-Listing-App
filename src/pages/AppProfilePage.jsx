@@ -1,6 +1,6 @@
 import PageNav from '../components/PageNav'
 import SidepPageNav from '../components/SidePageNav'
-import { NavLink, useNavigate } from 'react-router-dom';
+import {useNavigate } from 'react-router-dom';
 import { useAuth } from '../hooks/useAuth';
 const AppProfilePage = () => {
   
